@@ -69,7 +69,7 @@ $STD apt-get install --no-install-recommends -y \
   libaom-dev \
   zlib1g
 $STD apt-get install -y \
-  libgdk-pixbuf-2.0-dev librsvg2-dev libtool
+  libgdk-pixbuf-2.0-dev librsvg2-dev libtool libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
 curl -fsSL https://repo.jellyfin.org/jellyfin_team.gpg.key | gpg --dearmor -o /etc/apt/keyrings/jellyfin.gpg
 DPKG_ARCHITECTURE="$(dpkg --print-architecture)"
 export DPKG_ARCHITECTURE
